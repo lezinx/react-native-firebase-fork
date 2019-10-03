@@ -1,7 +1,5 @@
 Pod::Spec.new do |s|
   s.name                = "RNFirebase"
-  s.version             = package["version"]
-  s.description         = package["description"]
   s.summary             = <<-DESC
                             A well tested feature rich Firebase implementation for React Native, supporting iOS & Android.
                           DESC
