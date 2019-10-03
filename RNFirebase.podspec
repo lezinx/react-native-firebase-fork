@@ -1,6 +1,3 @@
-require 'json'
-package = JSON.parse(File.read('../package.json'))
-
 Pod::Spec.new do |s|
   s.name                = "RNFirebase"
   s.version             = package["version"]
